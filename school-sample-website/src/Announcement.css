@@ -1,0 +1,23 @@
+.custom-container {
+    inset-inline-start: unset;
+    height: 20vh;
+    width: 40%; /* Adjusted to make it more practical for scrolling content */
+    /* background-color: rgb(209, 73, 73); */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .announce{
+    align-items: center;
+  }
+
+  .Column_list {
+    /* background-color: rgb(167, 126, 126); */
+    /* padding: 10px; */
+    /* max-height: 50%;  */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .row_decoration{
+    background-color: aqua;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,82 @@
+.custom-navbar .nav-item-with-submenu {
+    position: relative;
+    color: #e7c7c7;
+  }
+
+
+body{   
+    margin:0 ; 
+   padding: 0;}
+
+ 
+  .custom-navbar .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    align-items: start;
+    background-color: white;
+    border: 1px solid #ddd;
+    /* padding-right: 2px; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+    min-width: 100%;
+    margin-top: 10px;
+    transform: translateY(5px);
+  }
+  
+  .custom-navbar .submenu a {
+    display: block;
+    padding: 10px ;
+    /* width: calc(100% - 1px); */
+    width: 100%;
+    color: black;
+    box-sizing: border-box; 
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .custom-navbar .submenu a:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+
+
+  .custom-navbar {
+    width: 100%;
+    margin: 0; /* Remove any default margin */
+    padding: 1% 0; /* Set padding to only affect top and bottom */
+    background-color: rgb(156, 31, 31); /* Background color */
+  }
+  
+  .custom-navbar .submenu a:hover {
+    background-color: #090e32;
+  }
+
+  .custom-navbar .nav-item-with-submenu:hover .submenu,
+  .custom-navbar .submenu:hover {
+    display: block; /* Show submenu when hovering over the parent or the submenu itself */
+  }
+
+/* Remove underline from Nav.Link elements */
+.custom-navbar .nav-link {
+    color: #ffffff; /* Adjust color as needed */
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #ffffff; /* Adjust hover color as needed */
+    text-decoration: none;
+  }
+  
+  .custom-navbar .nav-link:focus,
+  .custom-navbar .nav-link:active {
+    color: #ffffff; /* Adjust focus/active color as needed */
+    text-decoration: none;
+  }
+  .custom-navbar .nav-link:last-child {
+    margin-right: 0;
+  }
