@@ -3,6 +3,7 @@ import './App.css';
 import ImageCarousel from './ImageCarousel';
 import Announcement from './Announcement';
 import CustomNavbar from './CustomNavbar';
+import HomeGallery from './HomeGallery';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ImageCarousel />
       </header>
       <Announcement/>
+      {/* <HomeGallery/> */}
     </div>
   );
 }

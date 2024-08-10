@@ -1,14 +1,36 @@
 .custom-container {
     inset-inline-start: unset;
-    height: 20vh;
-    width: 40%; /* Adjusted to make it more practical for scrolling content */
+    height: 50vh;
+    width:95%; /* Adjusted to make it more practical for scrolling content */
     /* background-color: rgb(209, 73, 73); */
     overflow-y: auto; /* Enable vertical scrolling */
   }
 
+  #Column_list_padding {
+    inset-inline-start: unset;
+    height: 50vh;
+    
+    margin-left: 5px;
+    width:95%; /* Adjusted to make it more practical for scrolling content */
+    /* background-color: rgb(209, 73, 73); */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+
   .announce{
     align-items: center;
+  
   }
+
+  .row {
+    display: flex; /* Add flex display to Row if necessary */
+    align-items: center;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1; /* This will allow columns to flex equally */
+}
 
   .Column_list {
     /* background-color: rgb(167, 126, 126); */
